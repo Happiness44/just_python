@@ -15,7 +15,7 @@ def double_dice():
     return sum
 
 
-#print(double_dice())
+# print(double_dice())
 
 
 def multiple_dice(num):
@@ -25,7 +25,7 @@ def multiple_dice(num):
     return sum
 
 
-#print(multiple_dice(10))
+# print(multiple_dice(10))
 
 
 # double_dice()를 player1, player2 에게 각각 실행시켜서 큰 숫자가 나오는 플레이어가 이기는 게임을 만들어 봅시다.
@@ -44,7 +44,7 @@ def dice_game():
         return 0
 
 
-#dice_game()
+# dice_game()
 
 
 # while을 사용하여 주사위 게임을 여러 판 할 수 있게 만들어 봅시다.
@@ -78,7 +78,7 @@ def dice_game_areum():
     print(f"총 횟수 : {round_num}, p1 승리 : {p1_win}, p2 승리 : {p2_win}, 무승부 : {draw}")
 
 
-#dice_game_areum()
+# dice_game_areum()
 
 
 def dice_game2():
@@ -98,10 +98,9 @@ def dice_game2():
             draw += 1
 
         command = input("종료 exit: ")
-        if command == 'exit':
+        if command == "exit":
             break
     print(f"round : {round_num}, p1_win : {p1_win}, p2_win : {p2_win}, draw : {draw}")
 
 
 dice_game2()
-

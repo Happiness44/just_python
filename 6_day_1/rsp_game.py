@@ -12,9 +12,9 @@ def rsp(p1, p2):
         print(f"p1 : {p1} vs p2 : {p2} draw")
         return 0
     elif (
-            (p1 == "r" and p2 == "s") or
-            (p1 == "s" and p2 == "p") or
-            (p1 == "p" and p2 == "r")
+        (p1 == "r" and p2 == "s")
+        or (p1 == "s" and p2 == "p")
+        or (p1 == "p" and p2 == "r")
     ):
         # p1 승리
         print(f"p1 : {p1} vs p2 : {p2} p1 win")
@@ -26,14 +26,14 @@ def rsp(p1, p2):
 
 
 def rsp_game():
-    rsp_list = ['r', 's', 'p']
+    rsp_list = ["r", "s", "p"]
     win = 0
     lose = 0
     draw = 0
 
     for x in range(10):
         user = input("[바위] r, [가위] s, [보] p, [종료] exit : ")
-        if user == 'exit':
+        if user == "exit":
             break
 
         computer = random.choice(rsp_list)
@@ -52,4 +52,3 @@ def rsp_game():
 
 
 rsp_game()
-

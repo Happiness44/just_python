@@ -8,18 +8,18 @@ import random
 
 
 def rsp_game(rsp):
-    computer = random.choice(['r', 's', 'p'])
+    computer = random.choice(["r", "s", "p"])
 
     if rsp == computer:
         print(f"나는 {rsp}, 컴퓨터는 {computer}, 무승부")
         return 0
-    elif rsp == 'r' and computer == 's':
+    elif rsp == "r" and computer == "s":
         print(f"나는 {rsp}, 컴퓨터는 {computer}, 나의 승리")
         return 1
-    elif rsp == 's' and computer == 'p':
+    elif rsp == "s" and computer == "p":
         print(f"나는 {rsp}, 컴퓨터는 {computer}, 나의 승리")
         return 1
-    elif rsp == 'p' and computer == 'r':
+    elif rsp == "p" and computer == "r":
         print(f"나는 {rsp}, 컴퓨터는 {computer}, 나의 승리")
         return 1
     else:
@@ -35,7 +35,7 @@ def game():
 
     for n in range(10):
         command = input("종료는 exit\n")
-        if command == 'exit':
+        if command == "exit":
             break
         else:
             result = rsp_game(command)
@@ -50,4 +50,3 @@ def game():
 
 
 game()
-

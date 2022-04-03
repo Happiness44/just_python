@@ -2,6 +2,7 @@
 # 1000에서 20000 사이의 숫자 랜덤하게 출력하기
 import random
 
+
 num = random.randrange(1000, 20001)
 print(num)
 
@@ -68,4 +69,3 @@ print(f"salary : {salary} | tax : {tax}")
 
 real_salary = salary - tax
 print(f"salary : {salary} | tax : {tax} | real_salary : {real_salary}")
-

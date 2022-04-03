@@ -1,6 +1,6 @@
 # 어떤 숫자를 넘기면 제곱을 리턴하는 함수 square
 def square(num):
-    return num ** 2
+    return num**2
 
 
 print(square(4))

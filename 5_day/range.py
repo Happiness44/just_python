@@ -5,7 +5,7 @@ def range1():
         # 0 ~ 99
         if n % 10 == 0:
             print()
-        print(n + 1, end=' ')
+        print(n + 1, end=" ")
 
 
 # range1()
@@ -18,7 +18,7 @@ def gugudan(num):
         print(f"{num} * {n + 1} = {num * (n + 1)}")
 
 
-#gugudan(5)
+# gugudan(5)
 
 
 # for와 range를 두 번 사용해서(중첩) 구구단 1단부터 9단까지 출력하는 함수 gugudan2()를 만들어 봅시다.
@@ -34,4 +34,3 @@ def gugudan2():
 
 
 gugudan2()
-

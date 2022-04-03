@@ -13,7 +13,7 @@ def loop1():
 def loop2():
     x = 0
     while x < 10:
-        print(f'x : {x}')
+        print(f"x : {x}")
         x += 1
 
 
@@ -27,8 +27,8 @@ def loop2():
 def loop3():
     while True:
         command = input("[exit] 종료 : ")
-        print('안녕? 반가워~!')
-        if command == 'exit':
+        print("안녕? 반가워~!")
+        if command == "exit":
             break
 
 

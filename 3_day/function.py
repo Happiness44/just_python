@@ -39,9 +39,9 @@ def greeting(name):
     return f"안녕? {name}"
 
 
-name = '아름'
+name = "아름"
 print(greeting(name))
-print(greeting('다롱이'))
+print(greeting("다롱이"))
 
 
 # 화씨 -> 섭씨, 섭씨 -> 화씨
@@ -74,4 +74,3 @@ def delay_hello(text, sec):
 
 
 delay_hello("안녕하세요~ 다롱언니입니다!", 0.8)
-

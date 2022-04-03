@@ -4,15 +4,15 @@ def list1():
     print(type(li))
 
 
-#list1()
+# list1()
 
 
 def list2():
-    basket = ['오렌지', '망고', '사과', '파인애플']
+    basket = ["오렌지", "망고", "사과", "파인애플"]
     print(basket)
 
 
-#list2()
+# list2()
 
 
 def list3():
@@ -20,7 +20,7 @@ def list3():
     print(dice)
 
 
-#list3()
+# list3()
 
 
 def list4():
@@ -28,7 +28,7 @@ def list4():
     print(lotto)
 
 
-#list4()
+# list4()
 
 
 def list5():
@@ -42,7 +42,7 @@ def list5():
     print(deck)
 
 
-#list5()
+# list5()
 
 
 # for loop 연습
@@ -52,7 +52,7 @@ def for1():
         print(n)
 
 
-#for1()
+# for1()
 
 
 # 1부터 20까지 출력해 봅시다.
@@ -64,4 +64,3 @@ def for2():
 
 
 for2()
-

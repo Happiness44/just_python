@@ -15,9 +15,9 @@ def rsp(player1, player2):
         print(f"player1 : {player1}, player2 : {player2} => draw!")
         return 0
     elif (
-            (player1 == 'r' and player2 == 's') or
-            (player1 == 's' and player2 == 'p') or
-            (player1 == 'p' and player2 == 'r')
+        (player1 == "r" and player2 == "s")
+        or (player1 == "s" and player2 == "p")
+        or (player1 == "p" and player2 == "r")
     ):
         # player1 승리!
         print(f"player1 : {player1}, player2 : {player2} => player1 win!")
@@ -29,7 +29,7 @@ def rsp(player1, player2):
 
 
 def rsp_game():
-    rsp_list = ['r', 's', 'p']
+    rsp_list = ["r", "s", "p"]
     win = 0
     lose = 0
     draw = 0
@@ -38,7 +38,7 @@ def rsp_game():
 
     for n in range(int(game_num)):
         user = input("[바위] : r, [가위] : s, [보] : p, [종료] : exit => 나의 선택은? ")
-        if user == 'exit':
+        if user == "exit":
             break
         if user not in rsp_list:
             lose += 1
@@ -55,4 +55,3 @@ def rsp_game():
 
 
 rsp_game()
-

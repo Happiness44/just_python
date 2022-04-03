@@ -22,9 +22,11 @@ player2 = get_rsp()
 def result_rsp(p1, p2):
     if p1 == p2:
         print("무승부")
-    elif (p1 == "가위" and p2 == "보") or \
-         (p1 == "바위" and p2 == "가위") or \
-         (p1 == "보" and p2 == "바위"):
+    elif (
+        (p1 == "가위" and p2 == "보")
+        or (p1 == "바위" and p2 == "가위")
+        or (p1 == "보" and p2 == "바위")
+    ):
         print("player1 승리")
     else:
         print("player2 승리")
@@ -32,4 +34,3 @@ def result_rsp(p1, p2):
 
 print(f"player1 : {player1}, player2 : {player2}")
 result_rsp(player1, player2)
-

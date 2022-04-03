@@ -1,6 +1,7 @@
 def say_hello():
     # 안녕하세요!를 출력합니다.
-    print('[함수] 안녕하세요!')
+    print("[함수] 안녕하세요!")
+
 
 class Greeter:
     """
@@ -12,6 +13,7 @@ class Greeter:
 
     def __init__(self):
         print("[클래스] 안녕하세요~")
+
 
 say_hello()
 Greeter()

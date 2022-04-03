@@ -8,7 +8,7 @@ print("핸드폰 가격 : ", phone + delivery_fee)
 total = phone + delivery_fee
 card_sale = 40000
 to_pay = total - card_sale
-print("지불할 돈 : ", to_pay);
+print("지불할 돈 : ", to_pay)
 
 # 곱하기
 egg = 150
@@ -17,7 +17,7 @@ print("계란 한 판 : ", egg * 30)
 # 나누기
 em_cnt = 700
 total_bonus = 100_000_000
-print("인당 보너스 : ", total_bonus//em_cnt)
+print("인당 보너스 : ", total_bonus // em_cnt)
 
 # 나머지
 num = 12345677
